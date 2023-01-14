@@ -1,0 +1,51 @@
+[
+    {
+        "name": "CAR SERVICE",
+        "picture": "https://i.ibb.co/9Z7cbvf/Car.jpg",
+        "price": 30,
+        "rating": 4,
+        "about": "Et culpa minim nostrud consectetur magna et ex reprehenderit dolore sit id. Aute ad deserunt eiusmod nulla eu consequat officia fugiat fugiat veniam. Reprehenderit fugiat quis deserunt dolore occaecat fugiat ad nisi est proident magna ullamco. Occaecat velit et consequat dolore voluptate culpa ut fugiat ullamco aliqua in aliqua.\r\n"
+    },
+    {
+        "name": "SHIP SERVICE",
+        "picture": "https://i.ibb.co/c8Bssh4/download-4.jpg",
+        "price": 23,
+        "rating": 4,
+        "about": "Occaecat elit dolor nisi aliqua. Et ea labore aute magna. Sint quis cupidatat consequat cillum quis est deserunt velit. Do culpa do ea pariatur. Sint consequat proident nisi nulla incididunt. Cupidatat dolor ipsum qui do nulla incididunt reprehenderit.\r\n"
+    },
+    {
+        "name": "HELICOPTER SERVICE",
+        "picture": "https://i.ibb.co/LpyWxP6/images-1.jpg",
+        "price": 32,
+        "rating": 2,
+        "about": "Consequat quis labore laboris irure sint voluptate ex fugiat sint do occaecat. Anim fugiat laboris ex non occaecat Lorem. Ipsum ullamco eiusmod irure consequat reprehenderit. Ipsum commodo exercitation eiusmod voluptate voluptate fugiat in nulla officia quis. Qui velit dolore ipsum est cillum ullamco velit ea. Ad nulla in magna anim adipisicing ex eu. Do sint quis cupidatat sunt aute adipisicing quis eiusmod sit.\r\n"
+    },
+    {
+        "name": "BUS SERVICE",
+        "picture": "https://i.ibb.co/xsmn83W/download-1.jpg",
+        "price": 33,
+        "rating": 0,
+        "about": "Consequat duis esse nulla dolor velit aliqua commodo ut dolor exercitation mollit occaecat ut. Reprehenderit est incididunt do et ea minim. Reprehenderit do sunt commodo irure magna ea id anim et cupidatat.\r\n"
+    },
+    {
+        "name": "BIKE SERVICE",
+        "picture": "https://i.ibb.co/rZFpmpy/download-2.jpg",
+        "price": 34,
+        "rating": 3,
+        "about": "Excepteur id esse exercitation ad est amet elit quis. Laborum qui ex mollit cupidatat quis ipsum reprehenderit sint id ex est aute tempor. Tempor sint ad occaecat qui ex velit pariatur qui laboris.\r\n"
+    },
+    {
+        "name": "SPEED BOAT SERVICE",
+        "picture": "https://i.ibb.co/tXj9Sy6/images.jpg",
+        "price": 39,
+        "rating": 1,
+        "about": "Ea aliqua sunt ad velit commodo aliqua. Adipisicing dolore magna cillum eiusmod mollit tempor esse non sit occaecat ullamco. Et ad occaecat veniam reprehenderit esse. Ad irure excepteur cillum fugiat velit. Deserunt in aliqua dolore cupidatat sit ad Lorem Lorem qui est est cillum. Tempor in deserunt ad in sint labore voluptate sit culpa irure irure. Ullamco aliqua ea laborum magna officia ea voluptate eiusmod excepteur aliqua ad.\r\n"
+    },
+    {
+        "name": "TRUCK SERVICE",
+        "picture": "https://i.ibb.co/zhQJmxv/download-3.jpg",
+        "price": 32,
+        "rating": 4,
+        "about": "Magna excepteur pariatur qui elit enim cillum consequat nulla non nulla ex. Ea sit ipsum amet ea nostrud qui veniam dolor qui. Esse consequat exercitation cupidatat aute. Ea consectetur enim proident labore commodo adipisicing sit occaecat ullamco reprehenderit minim culpa in sint.\r\n"
+    }
+]
