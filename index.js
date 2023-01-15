@@ -21,14 +21,20 @@ async function run() {
     try {
         const UserCollection = client.db('TravelService').collection('Service');
 
-        app.get('/service', async (req, res) => {
+        app.get('/services', async (req, res) => {
             const query = {};
             const cursor = UserCollection.find(query);
             const result = await cursor.toArray();
             res.send(result);
 
         })
+        app.get('/service', async (req, res) => {
+            const query = {};
+            const cursor = UserCollection.find(query);
+            const result = await cursor.limit(3).toArray();
+            res.send(result);
 
+        })
     }
     finally {
 
