@@ -28,27 +28,48 @@ async function run() {
             const result = await cursor.toArray();
             res.send(result);
 
-        })
+        });
         app.get('/service', async (req, res) => {
             const query = {};
             const cursor = UserCollection.find(query);
             const result = await cursor.limit(3).toArray();
             res.send(result);
 
-        })
+        });
         app.get('/service/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
             const result = await UserCollection.findOne(query);
             res.send(result);
-        })
+        });
+        app.get('/review', async (req, res) => {
+            let query = {};
+
+            console.log(req.query.email)
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
+            const cursor = ReviewCollection.find(query);
+            const result = await cursor.toArray();
+            res.send(result);
+        });
         app.post('/review', async (req, res) => {
             const review = req.body;
             const doc = review
             console.log(doc)
             const result = await ReviewCollection.insertOne(doc);
             res.send(result);
+        });
+        app.get('/review/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { serviceId: id };
+            const cursor = ReviewCollection.find(query);
+            const result = await cursor.toArray();
+            res.send(result);
         })
+
     }
     finally {
 
