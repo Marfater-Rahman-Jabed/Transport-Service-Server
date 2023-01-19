@@ -29,6 +29,12 @@ async function run() {
             res.send(result);
 
         });
+        app.post('/service', async (req, res) => {
+            const serviceItem = req.body;
+            console.log(serviceItem);
+            const result = await UserCollection.insertOne(serviceItem);
+            res.send(result)
+        })
         app.get('/service', async (req, res) => {
             const query = {};
             const cursor = UserCollection.find(query);
